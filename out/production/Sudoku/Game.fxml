@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameController">
+   <children>
+      <GridPane layoutX="171.0" layoutY="53.0" style="-fx-border-color: red;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="30.0" minWidth="0.0" prefWidth="30.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="30.0" minWidth="0.0" prefWidth="30.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="30.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="30.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="textField0" alignment="CENTER" style="-fx-border-color: black;">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></TextField>
+            <TextField fx:id="textField1" style="-fx-border-color: black;" GridPane.columnIndex="1" />
+            <TextField fx:id="textField2" style="-fx-border-color: black;" GridPane.columnIndex="2" />
+            <TextField fx:id="textField3" style="-fx-border-color: black;" GridPane.columnIndex="3" />
+            <TextField fx:id="textField4" style="-fx-border-color: black;" GridPane.columnIndex="4" />
+            <TextField fx:id="textField5" style="-fx-border-color: black;" GridPane.columnIndex="5" />
+            <TextField fx:id="textField6" style="-fx-border-color: black;" GridPane.columnIndex="6" />
+            <TextField fx:id="textField7" style="-fx-border-color: black;" GridPane.columnIndex="7" />
+            <TextField fx:id="textField8" style="-fx-border-color: black;" GridPane.columnIndex="8" />
+            <TextField fx:id="textField9" style="-fx-border-color: black;" GridPane.rowIndex="1" />
+            <TextField fx:id="textField10" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="textField11" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField fx:id="textField12" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <TextField fx:id="textField13" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <TextField fx:id="textField14" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <TextField fx:id="textField15" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <TextField fx:id="textField16" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <TextField fx:id="textField17" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <TextField fx:id="textField18" style="-fx-border-color: black;" GridPane.rowIndex="2" />
+            <TextField fx:id="textField19" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="textField20" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <TextField fx:id="textField21" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <TextField fx:id="textField22" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <TextField fx:id="textField23" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <TextField fx:id="textField24" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <TextField fx:id="textField25" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <TextField fx:id="textField26" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <TextField fx:id="textField27" style="-fx-border-color: black;" GridPane.rowIndex="3" />
+            <TextField fx:id="textField28" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="textField29" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <TextField fx:id="textField30" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <TextField fx:id="textField31" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <TextField fx:id="textField32" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <TextField fx:id="textField33" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <TextField fx:id="textField34" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <TextField fx:id="textField35" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <TextField fx:id="textField36" style="-fx-border-color: black;" GridPane.rowIndex="4" />
+            <TextField fx:id="textField37" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="textField38" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <TextField fx:id="textField39" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <TextField fx:id="textField40" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <TextField fx:id="textField41" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <TextField fx:id="textField42" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <TextField fx:id="textField43" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <TextField fx:id="textField44" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <TextField fx:id="textField45" style="-fx-border-color: black;" GridPane.rowIndex="5" />
+            <TextField fx:id="textField46" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField fx:id="textField47" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <TextField fx:id="textField48" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <TextField fx:id="textField49" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <TextField fx:id="textField50" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <TextField fx:id="textField51" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <TextField fx:id="textField52" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <TextField fx:id="textField53" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <TextField fx:id="textField54" style="-fx-border-color: black;" GridPane.rowIndex="6" />
+            <TextField fx:id="textField55" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField fx:id="textField56" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <TextField fx:id="textField57" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <TextField fx:id="textField58" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <TextField fx:id="textField59" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <TextField fx:id="textField60" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <TextField fx:id="textField61" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <TextField fx:id="textField62" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <TextField fx:id="textField63" style="-fx-border-color: black;" GridPane.rowIndex="7" />
+            <TextField fx:id="textField64" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField fx:id="textField65" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <TextField fx:id="textField66" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <TextField fx:id="textField67" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <TextField fx:id="textField68" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <TextField fx:id="textField69" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <TextField fx:id="textField70" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <TextField fx:id="textField71" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <TextField fx:id="textField72" style="-fx-border-color: black;" GridPane.rowIndex="8" />
+            <TextField fx:id="textField73" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <TextField fx:id="textField74" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <TextField fx:id="textField75" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <TextField fx:id="textField76" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <TextField fx:id="textField77" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <TextField fx:id="textField78" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <TextField fx:id="textField79" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+            <TextField fx:id="textField80" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+         </children>
+      </GridPane>
+      <Text fx:id="resultText" fill="#d30303" layoutX="171.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="272.0" />
+      <Button fx:id="checkResultButton" layoutX="502.0" layoutY="128.0" mnemonicParsing="false" onAction="#checkResultButtonPressed" prefHeight="27.0" prefWidth="104.0" text="Check Result" />
+      <Button fx:id="showAnswerButton" layoutX="502.0" layoutY="176.0" mnemonicParsing="false" onAction="#showAnswerButtonPressed" prefHeight="27.0" prefWidth="104.0" text="Show Answer" />
+      <Button fx:id="resetButton" layoutX="502.0" layoutY="226.0" mnemonicParsing="false" onAction="#resetButtonPressed" prefHeight="27.0" prefWidth="104.0" text="Reset" />
+      <Button layoutX="502.0" layoutY="81.0" mnemonicParsing="false" onAction="#newGamePressed" prefHeight="27.0" prefWidth="104.0" text="New Game" />
+   </children>
+</AnchorPane>
